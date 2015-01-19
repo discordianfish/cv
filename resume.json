@@ -1,145 +1,4 @@
 {
-  "basics": {
-    "name": "Johannes Ziemke",
-    "label": "Engineer",
-    "picture": "http://www.gravatar.com/avatar/52d07a3ccc69d6f5414afad34c1383c5?s=200",
-    "email": "cv@freigeist.org",
-    "phone": "+49 (179) 9013947",
-    "website": "https://5pi.de",
-    "summary": "",
-    "location": {
-      "address": "Mittenwalder Str. 24",
-      "postalCode": "10961",
-      "city": "Berlin",
-      "countryCode": "Germany",
-      "region": "Berlin"
-    },
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "discordianfish",
-        "url": "https://twitter.com/discordianfish"
-      },
-      {
-        "network": "Twitter",
-        "username": "discordianfish",
-        "url": "https://twitter.com/discordianfish"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "Docker, Inc.",
-      "position": "Infrastructure Engineer",
-      "website": "https://docker.com",
-      "startDate": "2013-12-01",
-      "summary": "Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications.",
-      "highlights": [
-        "Built the infrastructure for Docker's SaaS offerings from scratch",
-        "Contributed to the Docker open source project, e.g TLS authentication",
-        "Built various tools to support operation of the platform",
-        "Gave talks about Docker on various occasions"
-      ]
-    },
-    {
-      "company": "SoundCloud",
-      "position": "Backend Engineer",
-      "website": "https://soundcloud.com",
-      "startDate": "2011-07-01",
-      "summary": "SoundCloud is the world's leading social sound platform where anyone can create sounds and share them everywhere.",
-      "highlights": [
-        "Keept up with 10x growth",
-        "Automated system provisioning",
-        "Designed multi zone and multi datacenter infrastructure, service naming and discovery including locality awareness",
-        "Wrote guidelines for configuration and system management",
-        "Contributed to internal cluster scheduler and monitoring systems / time series database 'prometheus' written in Go."
-      ],
-      "endDate": "2013-11-01"
-    },
-    {
-      "company": "Strato AG",
-      "position": "Devop",
-      "website": "https://www.strato.de",
-      "startDate": "2010-07-01",
-      "summary": "Strato is a internet service provider and Europe's second-largest web-hosting company.",
-      "highlights": [
-        "Operated 1.600 servers with 18.000 virtual machines.",
-        "Leading projects like hardware evaluation, IPv6 deployment and development of APS-Installer.",
-        "Implemented various automation and end-to-end backup checking."
-      ],
-      "endDate": "2011-06-01"
-    },
-    {
-      "company": "VR Netze GmbH",
-      "position": "Network Engineer",
-      "website": "http://www.vrnetze.de",
-      "startDate": "2006-08-01",
-      "summary": "VR Netze, now merged with ratiodata, provides network services to the cooperative banking sector.",
-      "highlights": [
-        "Operated, scaled and redesigned DNS and DHCP infrastructure for GAD's banking associations.",
-        "Responsible for name resolution and IP configuration for more than 150,000 systems.",
-        "Redesigned domain namespace in use by more than 500 financial institutes.",
-        "Automated infrastructure configuration and implementation of web and 3rd party interfaces.",
-        "Design and implementation of highly available DNS."
-      ],
-      "endDate": "2010-06-01"
-    }
-  ],
-  "volunteer": [],
-  "education": [
-     {
-      "institution": "Hellweg Berufskolleg Unna",
-      "area": "Information Technology Assistant",
-      "studyType": "Advanced technical certificate, 'Fachhochschulreife'",
-      "startDate": "2003-09-01",
-      "endDate": "2006-06-01",
-      "gpa": "Grade 1.7"
-    },
-     {
-      "institution": "Freie Waldorfschule Oberberg",
-      "area": "High school",
-      "studyType": "Vocational extension certificate",
-      "startDate": "1993-04-01",
-      "endDate": "2003-07-01"
-    },
-    {
-      "institution": "Freie Waldorfschule Weimar",
-      "startDate": "1991-07-01",
-      "endDate": "1993-03-01"
-    }
-],
-  "skills": [
-    {
-      "name": "Programming",
-      "keywords": [
-        "Go",
-        "Perl",
-        "Ruby",
-        "Git",
-        "APIs",
-        "Concurrency"
-      ]
-    },
-    {
-      "name": "Infrastructures",
-      "keywords": [
-        "Linux (Debian, Ubuntu, Gentoo)",
-        "System/Configuration Management (Chef, Ansible)",
-        "Distributed Systems",
-        "Large scale infrastructures",
-        "Networking protocols",
-        "CI/CD",
-        "PaaS/IaaS"
-      ]
-    },
-    {
-      "name": "Others",
-      "keywords": [
-        "Agile Methodologies",
-        "Hiring Experience"
-      ]
-    }
-  ],
   "interests": [
     {
       "keywords": [
@@ -153,5 +12,147 @@
         "Music"
       ]
     }
-  ]
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Go",
+        "Perl",
+        "Ruby",
+        "Git",
+        "APIs",
+        "Concurrency"
+      ],
+      "name": "Programming"
+    },
+    {
+      "keywords": [
+        "Linux (Debian, Ubuntu, Gentoo)",
+        "System/Configuration Management (Chef, Ansible)",
+        "Distributed Systems",
+        "Large scale infrastructures",
+        "Networking protocols",
+        "CI/CD",
+        "PaaS/IaaS"
+      ],
+      "name": "Infrastructure"
+    },
+    {
+      "keywords": [
+        "Agile Methodologies",
+        "Startup & Hiring Experience",
+        "Fighting Complexity"
+      ],
+      "name": "Others"
+    }
+  ],
+  "education": [
+    {
+      "gpa": "Grade 1.7",
+      "endDate": "2006-06-01",
+      "startDate": "2003-09-01",
+      "studyType": "Advanced technical certificate, 'Fachhochschulreife'",
+      "area": "Information Technology Assistant",
+      "institution": "Hellweg Berufskolleg Unna"
+    },
+    {
+      "endDate": "2003-07-01",
+      "startDate": "1993-04-01",
+      "studyType": "Vocational extension certificate",
+      "area": "High school",
+      "institution": "Freie Waldorfschule Oberberg"
+    },
+    {
+      "endDate": "1993-03-01",
+      "startDate": "1991-07-01",
+      "institution": "Freie Waldorfschule Weimar"
+    }
+  ],
+  "volunteer": [],
+  "work": [
+    {
+      "highlights": [
+        "Built the infrastructure for Docker's SaaS offerings from scratch",
+        "Contributed to the Docker open-source project, e.g TLS authentication",
+        "Built various tools to support operation of the platform",
+        "Gave talks about Docker on various occasions"
+      ],
+      "summary": "Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications.",
+      "startDate": "2013-12-01",
+      "website": "https://docker.com",
+      "position": "Infrastructure Engineer",
+      "company": "Docker, Inc."
+    },
+    {
+      "endDate": "2013-11-01",
+      "highlights": [
+        "Keept up with 10x growth",
+        "Automated system provisioning",
+        "Designed multi-zone and multi-datacenter infrastructure, service naming and discovery including locality awareness",
+        "Wrote guidelines for configuration and system management",
+        "Contributed to internal cluster scheduler and monitoring systems / time series database 'Prometheus' written in Go."
+      ],
+      "summary": "SoundCloud is the world's leading social sound platform where anyone can create sounds and share them everywhere.",
+      "startDate": "2011-07-01",
+      "website": "https://soundcloud.com",
+      "position": "Backend Engineer",
+      "company": "SoundCloud"
+    },
+    {
+      "endDate": "2011-06-01",
+      "highlights": [
+        "Operated 1.600 servers with 18.000 virtual machines.",
+        "Leading projects like hardware evaluation, IPv6 deployment and development of APS-Installer.",
+        "Implemented various automations and end-to-end backup checking."
+      ],
+      "summary": "Strato is an internet service provider and Europe's second-largest web-hosting company.",
+      "startDate": "2010-07-01",
+      "website": "https://www.strato.de",
+      "position": "Devop",
+      "company": "Strato AG"
+    },
+    {
+      "endDate": "2010-06-01",
+      "highlights": [
+        "Operated, scaled and redesigned DNS and DHCP infrastructure for GAD's banking associations.",
+        "Responsible for name resolution and IP configuration for more than 150,000 systems.",
+        "Redesigned domain namespace in use by more than 500 financial institutes.",
+        "Automated infrastructure configuration and implementation of web and 3rd party interfaces.",
+        "Design and implementation of highly available DNS."
+      ],
+      "summary": "VR Netze, now merged with ratiodata, provides network services to the cooperative banking sector.",
+      "startDate": "2006-08-01",
+      "website": "http://www.vrnetze.de",
+      "position": "Network Engineer",
+      "company": "VR Netze GmbH"
+    }
+  ],
+  "basics": {
+    "profiles": [
+      {
+        "url": "https://twitter.com/discordianfish",
+        "username": "discordianfish",
+        "network": "GitHub"
+      },
+      {
+        "url": "https://twitter.com/discordianfish",
+        "username": "discordianfish",
+        "network": "Twitter"
+      }
+    ],
+    "name": "Johannes Ziemke",
+    "label": "Engineer",
+    "picture": "http://www.gravatar.com/avatar/52d07a3ccc69d6f5414afad34c1383c5?s=200",
+    "email": "cv@freigeist.org",
+    "phone": "+49 (179) 9013947",
+    "website": "https://5pi.de",
+    "summary": "",
+    "location": {
+      "region": "Berlin",
+      "countryCode": "Germany",
+      "city": "Berlin",
+      "postalCode": "10961",
+      "address": "Mittenwalder Str. 24"
+    }
+  }
 }
