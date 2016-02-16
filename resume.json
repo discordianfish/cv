@@ -17,7 +17,7 @@
     {
       "keywords": [
         "Go",
-        "Perl",
+        "Bash",
         "Ruby",
         "Git",
         "APIs",
@@ -163,6 +163,11 @@
         "url": "https://twitter.com/discordianfish",
         "username": "discordianfish",
         "network": "Twitter"
+      },
+      {
+        "url": "https://www.linkedin.com/in/johannesziemke",
+        "username": "johannesziemke",
+        "network": "LinkedIn"
       }
     ],
     "name": "Johannes Ziemke",
