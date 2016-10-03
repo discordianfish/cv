@@ -72,12 +72,25 @@
   "work": [
     {
       "highlights": [
+        "Improved Prometheus based monitoring infrastructure",
+        "Development of internal tooling",
+        "Design and implementation of hardware lifecycle management on Collins"
+      ],
+      "summary": "Real-time image resizing as a service powering Kickstarter, QuizUp, Exposure, and many more",
+      "startDate": "2016-03-01",
+      "website": "https://imgix.com",
+      "position": "Infrastructure Engineer",
+      "company": "imgix"
+    },
+    {
+      "highlights": [
         "Built HA AWS / CloudFormation stack deploying immutable images for sharded mongodb cluster and autoscaling app servers",
         "Introduced blackbox, system and app level monitoring with SLA based alerting using Prometheus",
         "Established on call rotation"
       ],
       "summary": "Jodel is a Berlin startup building an anonymous, location based social network.",
       "startDate": "2015-11-30",
+      "endDate": "2016-02-12",
       "website": "https://jodel-app.com",
       "position": "Platforms Engineer",
       "company": "The Jodel Venture GmbH"
