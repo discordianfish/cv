@@ -72,16 +72,15 @@
   "work": [
     {
       "highlights": [
-        "Improved Prometheus based monitoring infrastructure",
-        "Development of internal tooling",
-        "Design and implementation of hardware lifecycle management on Collins"
+        "Prometheus improvements and hardware lifecycle management at imgix",
+        "AWS/Infrastructure Consulting for Styla",
+        "Implementation and migration of self-service datamining stack at Styla"
       ],
-      "summary": "Real-time image resizing as a service powering Kickstarter, QuizUp, Exposure, and many more",
+      "summary": "Freelance Consultant",
       "startDate": "2016-03-01",
-      "endDate": "2017-01-10",
-      "website": "https://imgix.com",
-      "position": "Full time contracting as Infrastructure Engineer",
-      "company": "imgix"
+      "website": "https://5pi.de/hire-me",
+      "position": "Freelance Consultant",
+      "company": "5pi.de"
     },
     {
       "highlights": [
