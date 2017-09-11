@@ -4,9 +4,128 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
 <title>Johannes Ziemke</title>
-<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-<style>body,html{padding-top:2.5em;margin:0;background-color:#fafafa;}.note{display:block;position:absolute;top:10px;left:10px;font-family:"Open Sans";font-size:0.6em;}.new{background-color:#81C784;border:1px solid #757575;padding:1px;border-radius:4px;}header{width:100%;vertical-align:middle;text-align:center;}.header-content{display:inline-block;}.pic{margin:0 auto;margin-top:-2.5em;border-radius:10em;height:4em;width:4em;border:2px solid #e0e0e0;transition:all 0.5s linear;}@-webkit-keyframes wiggle{0%{transform:rotate(0deg);}25%{transform:rotate(-30deg);}50%{transform:rotate(15deg);}100%{transform:rotate(0deg);}}.pic:hover{-webkit-transform:translateZ(0);cursor:pointer;-webkit-animation:wiggle 0.7s cubic-bezier(0.6,-0.28,0.735,0.045);}.header-text{margin-top:0.5em;margin-left:1em;}header p{text-align:center;font-family:"Merriweather";margin:0;color:#212121;}.first-name{font-size:1.05em;}.subtitle{font-family:"Merriweather";padding-top:.3em;font-size:0.55em;font-weight:500;color:#424242;}.paper{margin:0 auto;margin-bottom:1em;background-color:white;width:60%;padding:0.5em 0 0.5em 0;border-top:1px solid #e0e0e0;border-left:1px solid #e0e0e0;border-right:1px solid #e0e0e0;border-bottom:3px solid #e0e0e0;border-radius:3px;}@media(max-width:992px) {
+<link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,700" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+<style>body, html {
+  padding-top:2.5em;
+  margin:0;
+  background-color:#fafafa;
+}
+
+.note {
+  display:block;
+  position: absolute;
+  top:10px;
+  left:10px;
+
+  font-family: "Open Sans";
+  font-size: 0.6em;
+}
+
+.new {
+  background-color: #81C784;
+
+  border: 1px solid #757575;
+  padding: 1px;
+  border-radius: 4px;
+
+}
+
+/* Header */
+
+header {
+  width:100%;
+  vertical-align: middle;
+  text-align: center;
+ 
+}
+
+.header-content {
+  display: inline-block;
+}
+
+.pic {
+  margin: 0 auto;
+  margin-top:-2.5em;
+  
+  border-radius:10em;
+  height:4em;
+  width:4em;
+  
+  border: 2px solid #e0e0e0;
+  transition : all 0.5s linear;
+  
+}
+
+@-webkit-keyframes wiggle {
+  0%   {
+    transform: rotate(0deg);
+  }
+  25%  {
+    transform: rotate(-30deg);
+  }
+  50%  {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.pic:hover {
+  /*Webkit fix*/
+  -webkit-transform: translateZ(0);
+  
+  cursor:pointer;
+  
+  -webkit-animation: wiggle 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.header-text {
+  margin-top:0.5em;
+  margin-left:1em;
+}
+
+header p {
+  text-align:center;
+  font-family: "Merriweather";
+  
+  margin:0;
+  
+  color: #212121;
+}
+
+.first-name {
+   font-size: 1.05em;
+}
+
+.subtitle {
+  font-family: "Merriweather";
+  padding-top:.3em;
+  font-size:0.55em;
+  font-weight:500;
+  color: #424242;
+}
+
+/* Information */
+
+.paper {
+  margin: 0 auto;
+  margin-bottom:1em;
+  
+  background-color:white;
+  width:60%;
+  
+  padding:0.5em 0 0.5em 0;
+  
+  border-top: 1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 3px solid #e0e0e0;
+  border-radius:3px;
+}
+
+@media(max-width:992px) {
   .paper {
     width:80%;
   }
@@ -184,8 +303,36 @@ div.content-text.skills-listing > p > {
   color:#212121;
 }
 
-</style>
-  <style media="print">
+@media screen and (max-width: 600px) {
+  body, html {
+    padding-top: 30px;
+  }
+
+  .paper {
+    width:95%;
+  }
+
+  .row div {
+    display: block;
+  }
+
+  .content-cat {
+    width: 100%;
+  }
+
+  .content-text ul li {
+    width: 100%;
+  }
+
+  .content-text ul li:first-child {
+    width: 100%;
+  }
+  
+  .education-listing > .highlight {
+    margin-left: 30px;
+  }
+}</style>
+<style media="print">
 body, html {
   background-color: white;
   padding-top: 1.5em;
@@ -305,302 +452,321 @@ div.content-text.skills-listing > ul > li:first-child {
 }</style>
 </head>
 <body>
-  <div class="resume-wrapper">
-    <article class="paper">
-        <header>
-          <div class="header-content">
-              <div class="header-pic">
-                <img src="http://www.gravatar.com/avatar/52d07a3ccc69d6f5414afad34c1383c5?s=200" class="pic" />
-              </div>
-            <div class="header-text">
-              <p>
-                Johannes Ziemke
-              </p>
-              <p class="subtitle">Engineer</p>
-            </div>
-          </div>
-        </header>
-        <div class="content-wrapper">
-          <!-- CONTACT -->
-          <section class="content">
-            <div class="row">
-              <div class="content-cat">
-                Contact
-              </div>
-              <div class="content-text">
-                  <ul>
-                    <li>Website</li>
-                    <li>https://5pi.de</li>
-                  </ul>
-                  <ul>
-                    <li>Email</li>
-                    <li><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="e78491a78195828e80828e9493c9889580">[email&#160;protected]</a><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></li>
-                  </ul>
-                  <ul>
-                    <li>Phone</li>
-                    <li>+49 (179) 9013947</li>
-                  </ul>
-              </div>
-            </div>
-          </section>
-          <!-- LOCATION -->
-              <section class="content">
-                <div class="row">
-                  <div class="content-cat">
-                    Location
-                  </div>
-                  <div class="content-text">
-                      <ul>
-                        <li>Address</li>
-                        <li>Mittenwalder Str. 24</li>
-                      </ul>
-                        <ul>
-                          <li>Postal Code & City</li>
-                          <li>10961 Berlin</li>
-                        </ul>
-                      <ul>
-                        <li>Region</li>
-                        <li>Berlin</li>
-                      </ul>
-                  </div>
-                </div>
-              </section>
-        <!-- LANGUAGE -->
-            <!-- PROFILES -->
-              <section class="content profiles">
-                <div class="row">
-                  <div class="content-cat">
-                    Profiles
-                  </div>
-                  <div class="content-text profiles-listing">
-                    <ul>
-                          <li>
-                            <a href="https://github.com/discordianfish" target="_blank">
-                              GitHub
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://twitter.com/discordianfish" target="_blank">
-                              Twitter
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://www.linkedin.com/in/discordianfish" target="_blank">
-                              LinkedIn
-                            </a>
-                          </li>
-                    </ul>
-                  </div>
-                </div>
-              </section>
-                <section class="content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                        Work  Experience
-                          <p>2016-03-01 till Today</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p style="margin-top:2.4em;">
-                          <strong>Freelance Consultant</strong>
-                          at <strong><a href="https://5pi.de/hire-me">5pi.de:</a></strong>
-                        </p>
-                        <p>Freelance Consultant</p>
-                          <p class="highlight">Prometheus improvements and hardware lifecycle management at imgix</p>
-                          <p class="highlight">AWS/Infrastructure Consulting for Styla</p>
-                          <p class="highlight">Implementation and migration of self-service datamining stack at Styla</p>
-                    </div>
-                  </div>
-                </section>
-                <section class="content work-content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                          <p>2015-11-30 till 2016-02-12</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p>
-                          <strong>Platforms Engineer</strong>
-                          at <strong><a href="https://jodel-app.com">The Jodel Venture GmbH:</a></strong>
-                        </p>
-                        <p>Jodel is a Berlin startup building an anonymous, location based social network.</p>
-                          <p class="highlight">Built HA AWS / CloudFormation stack deploying immutable images for sharded mongodb cluster and autoscaling app servers</p>
-                          <p class="highlight">Introduced blackbox, system and app level monitoring with SLA based alerting using Prometheus</p>
-                          <p class="highlight">Established on call rotation</p>
-                    </div>
-                  </div>
-                </section>
-                <section class="content work-content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                          <p>2015-07-01 till 2015-11-29</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p>
-                          <strong>Site Reliability Engineer</strong>
-                          at <strong><a href="https://mesosphere.com">Mesosphere:</a></strong>
-                        </p>
-                        <p>Mesosphere organizes your entire infrastructure as if it was a single computer. Focus on your business, not on servers.</p>
-                          <p class="highlight">Built VM based integration tests for various deployment strategies</p>
-                          <p class="highlight">Built fully automated bare metal platform to run internal, multi purpose clusters</p>
-                    </div>
-                  </div>
-                </section>
-                <section class="content work-content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                          <p>2013-12-01 till 2015-07-01</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p>
-                          <strong>Infrastructure Engineer</strong>
-                          at <strong><a href="https://docker.com">Docker, Inc.:</a></strong>
-                        </p>
-                        <p>Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications.</p>
-                          <p class="highlight">Built the infrastructure for Docker&#x27;s SaaS offerings from scratch</p>
-                          <p class="highlight">Contributed to the Docker open-source project, e.g TLS authentication</p>
-                          <p class="highlight">Built various tools to support operation of the platform</p>
-                          <p class="highlight">Gave talks about Docker on various occasions</p>
-                    </div>
-                  </div>
-                </section>
-                <section class="content work-content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                          <p>2011-07-01 till 2013-11-01</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p>
-                          <strong>Backend Engineer</strong>
-                          at <strong><a href="https://soundcloud.com">SoundCloud:</a></strong>
-                        </p>
-                        <p>SoundCloud is the world&#x27;s leading social sound platform where anyone can create sounds and share them everywhere.</p>
-                          <p class="highlight">Keept up with 10x growth</p>
-                          <p class="highlight">Automated system provisioning</p>
-                          <p class="highlight">Designed multi-zone and multi-datacenter infrastructure, service naming and discovery including locality awareness</p>
-                          <p class="highlight">Wrote guidelines for configuration and system management</p>
-                          <p class="highlight">Contributed to internal cluster scheduler and monitoring systems / time series database &#x27;Prometheus&#x27; written in Go.</p>
-                    </div>
-                  </div>
-                </section>
-                <section class="content work-content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                          <p>2010-07-01 till 2011-06-01</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p>
-                          <strong>Devop</strong>
-                          at <strong><a href="https://www.strato.de">Strato AG:</a></strong>
-                        </p>
-                        <p>Strato is an internet service provider and Europe&#x27;s second-largest web-hosting company.</p>
-                          <p class="highlight">Operated 1.600 servers with 18.000 virtual machines.</p>
-                          <p class="highlight">Leading projects like hardware evaluation, IPv6 deployment and development of APS-Installer.</p>
-                          <p class="highlight">Implemented various automations and end-to-end backup checking.</p>
-                    </div>
-                  </div>
-                </section>
-                <section class="content work-content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                          <p>2006-08-01 till 2010-06-01</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p>
-                          <strong>Network Engineer</strong>
-                          at <strong><a href="http://www.vrnetze.de">VR Netze GmbH:</a></strong>
-                        </p>
-                        <p>VR Netze, now merged with ratiodata, provides network services to the cooperative banking sector.</p>
-                          <p class="highlight">Operated, scaled and redesigned DNS and DHCP infrastructure for GAD&#x27;s banking associations.</p>
-                          <p class="highlight">Responsible for name resolution and IP configuration for more than 150,000 systems.</p>
-                          <p class="highlight">Redesigned domain namespace in use by more than 500 financial institutes.</p>
-                          <p class="highlight">Automated infrastructure configuration and implementation of web and 3rd party interfaces.</p>
-                          <p class="highlight">Design and implementation of highly available DNS.</p>
-                    </div>
-                  </div>
-                </section>
-                <section class="content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                        Education
-                          <p>2003-09-01 till 2006-06-01</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p class="heading" style="margin-top:2.35em;">Hellweg Berufskolleg Unna</p>
-                        <p class="highlight">
-                          Advanced technical certificate, &#x27;Fachhochschulreife&#x27;:
-                          <i>Information Technology Assistant (Grade 1.7)</i>
-                        </p>
-                    </div>
-                  </div>
-                </section>
-                <section class="content education-content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                          <p>1993-04-01 till 2003-07-01</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p class="heading">Freie Waldorfschule Oberberg</p>
-                    </div>
-                  </div>
-                </section>
-                <section class="content education-content">
-                  <div class="row">
-                    <div class="content-cat big-text">
-                          <p>1991-07-01 till 1993-03-01</p>
-                    </div>
-                    <div class="content-text work-listing education-listing">
-                          <p class="heading">Freie Waldorfschule Weimar</p>
-                    </div>
-                  </div>
-                </section>
-          <section class="content">
-            <div class="row">
-              <div class="content-cat">
-                Skills
-              </div>
-              <div class="content-text skills-listing">
-                  <p>
-                    <span class="name">
-                        <strong>
-                          Programming:
-                        </strong>
-                    </span>
-                      Go, Bash, Ruby, Git, APIs, Concurrency
-                  </p>
-                  <p>
-                    <span class="name">
-                        <strong>
-                          Infrastructure:
-                        </strong>
-                    </span>
-                      Linux (Debian, Ubuntu, Gentoo), System/Configuration Management (Chef, Ansible), Distributed Systems, Large scale infrastructures, Networking protocols, CI/CD, PaaS/IaaS
-                  </p>
-                  <p>
-                    <span class="name">
-                        <strong>
-                          Others:
-                        </strong>
-                    </span>
-                      Agile Methodologies, Startup &amp; Hiring Experience, Fighting Complexity
-                  </p>
-              </div>
-            </div>
-          </section>
-            <section class="content">
-              <div class="row">
-                <div class="content-cat">
-                  Interests
-                </div>
-                <div class="content-text skills-listing">
-                    <p>
-                      <span class="name">
-                      </span>
-                        Simplification, Working with purpose and impact, Data driven decisions, Breaking things to build confidence, Warehouse Scale Computing, Science, Pop culture, Music
-                    </p>
-                </div>
-              </div>
-            </section>
-        </div>
-    </article>
-  </div>
-</body>
+<div class="resume-wrapper">
+<article class="paper">
+<header>
+<div class="header-content">
+<div class="header-pic">
+<img src="http://www.gravatar.com/avatar/52d07a3ccc69d6f5414afad34c1383c5?s=200" class="pic"/>
+</div>
+<div class="header-text">
+<p>
+Johannes Ziemke
+</p>
+<p class="subtitle">Engineer</p>
+</div>
+</div>
+</header>
+<div class="content-wrapper">
+
+<section class="content">
+<div class="row">
+<div class="content-cat">
+Contact
+</div>
+<div class="content-text">
+<ul>
+<li>Website</li>
+<li>https://5pi.de</li>
+</ul>
+<ul>
+<li>Email</li>
+<li><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d8bbae98beaabdb1bfbdb1abacf6b7aabf">[email&#160;protected]</a></li>
+</ul>
+<ul>
+<li>Phone</li>
+<li>+49 (179) 9013947</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section class="content">
+<div class="row">
+<div class="content-cat">
+Location
+</div>
+<div class="content-text">
+<ul>
+<li>Address</li>
+<li>Mittenwalder Str. 24</li>
+</ul>
+<ul>
+<li>Postal Code & City</li>
+<li>10961 Berlin</li>
+</ul>
+<ul>
+<li>Region</li>
+<li>Berlin</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="content">
+<div class="row">
+<div class="content-cat big-text">
+Work Experience
+<p>2017-08-17 till today</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p style="margin-top:2.4em;">
+<strong>Founder</strong>
+at <strong><a href="https://latency.at">Latency.at:</a></strong>
+</p>
+<p>Latency.at measures performance and availability of your sites and services from multiple global locations and provides the results as Prometheus metrics.</p>
+<p class="highlight">Built from scratch using Go, React, Kubernetes, Prometheus on GCP</p>
+</div>
+</div>
+</section>
+<section class="content work-content">
+<div class="row">
+<div class="content-cat big-text">
+<p>2016-03-01 till today</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p>
+<strong>Freelance Consultant</strong>
+at <strong><a href="https://5pi.de/hire-me">5pi.de:</a></strong>
+</p>
+<p>Consulting</p>
+<p class="highlight">Prometheus improvements and hardware lifecycle management at imgix</p>
+<p class="highlight">Consulting; Implementation/Migration of self-service dataminig stack at Styla</p>
+<p class="highlight">Stablizing Azure support for tectonic-installer; AWS R&amp;D Cluster at Travelping</p>
+</div>
+</div>
+</section>
+<section class="content work-content">
+<div class="row">
+<div class="content-cat big-text">
+<p>2015-11-30 till 2016-02-12</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p>
+<strong>Platforms Engineer</strong>
+at <strong><a href="https://jodel-app.com">The Jodel Venture GmbH:</a></strong>
+</p>
+<p>Jodel is a Berlin startup building an anonymous, location based social network.</p>
+<p class="highlight">Built HA AWS / CloudFormation stack deploying immutable images for sharded mongodb cluster and autoscaling app servers</p>
+<p class="highlight">Introduced blackbox, system and app level monitoring with SLA based alerting using Prometheus</p>
+<p class="highlight">Established on call rotation</p>
+</div>
+</div>
+</section>
+<section class="content work-content">
+<div class="row">
+<div class="content-cat big-text">
+<p>2015-07-01 till 2015-11-29</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p>
+<strong>Site Reliability Engineer</strong>
+at <strong><a href="https://mesosphere.com">Mesosphere:</a></strong>
+</p>
+<p>Mesosphere organizes your entire infrastructure as if it was a single computer. Focus on your business, not on servers.</p>
+<p class="highlight">Built VM based integration tests for various deployment strategies</p>
+<p class="highlight">Built fully automated bare metal platform to run internal, multi purpose clusters</p>
+</div>
+</div>
+</section>
+<section class="content work-content">
+<div class="row">
+<div class="content-cat big-text">
+<p>2013-12-01 till 2015-07-01</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p>
+<strong>Infrastructure Engineer</strong>
+at <strong><a href="https://docker.com">Docker, Inc.:</a></strong>
+</p>
+<p>Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications.</p>
+<p class="highlight">Built the infrastructure for Docker&#x27;s SaaS offerings from scratch</p>
+<p class="highlight">Contributed to the Docker open-source project, e.g TLS authentication</p>
+<p class="highlight">Built various tools to support operation of the platform</p>
+<p class="highlight">Gave talks about Docker on various occasions</p>
+</div>
+</div>
+</section>
+<section class="content work-content">
+<div class="row">
+<div class="content-cat big-text">
+<p>2011-07-01 till 2013-11-01</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p>
+<strong>Backend Engineer</strong>
+at <strong><a href="https://soundcloud.com">SoundCloud:</a></strong>
+</p>
+<p>SoundCloud is the world&#x27;s leading social sound platform where anyone can create sounds and share them everywhere.</p>
+<p class="highlight">Keept up with 10x growth</p>
+<p class="highlight">Automated system provisioning</p>
+<p class="highlight">Designed multi-zone and multi-datacenter infrastructure, service naming and discovery including locality awareness</p>
+<p class="highlight">Wrote guidelines for configuration and system management</p>
+<p class="highlight">Contributed to internal cluster scheduler and monitoring systems / time series database &#x27;Prometheus&#x27; written in Go.</p>
+</div>
+</div>
+</section>
+<section class="content work-content">
+<div class="row">
+<div class="content-cat big-text">
+<p>2010-07-01 till 2011-06-01</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p>
+<strong>Devop</strong>
+at <strong><a href="https://www.strato.de">Strato AG:</a></strong>
+</p>
+<p>Strato is an internet service provider and Europe&#x27;s second-largest web-hosting company.</p>
+<p class="highlight">Operated 1.600 servers with 18.000 virtual machines.</p>
+<p class="highlight">Leading projects like hardware evaluation, IPv6 deployment and development of APS-Installer.</p>
+<p class="highlight">Implemented various automations and end-to-end backup checking.</p>
+</div>
+</div>
+</section>
+<section class="content work-content">
+<div class="row">
+<div class="content-cat big-text">
+<p>2006-08-01 till 2010-06-01</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p>
+<strong>Network Engineer</strong>
+at <strong><a href="http://www.vrnetze.de">VR Netze GmbH:</a></strong>
+</p>
+<p>VR Netze, now merged with ratiodata, provides network services to the cooperative banking sector.</p>
+<p class="highlight">Operated, scaled and redesigned DNS and DHCP infrastructure for GAD&#x27;s banking associations.</p>
+<p class="highlight">Responsible for name resolution and IP configuration for more than 150,000 systems.</p>
+<p class="highlight">Redesigned domain namespace in use by more than 500 financial institutes.</p>
+<p class="highlight">Automated infrastructure configuration and implementation of web and 3rd party interfaces.</p>
+<p class="highlight">Design and implementation of highly available DNS.</p>
+</div>
+</div>
+</section>
+<section class="content">
+<div class="row">
+<div class="content-cat big-text">
+Education
+<p>2003-09-01 till 2006-06-01</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p class="heading" style="margin-top:2.35em;">Hellweg Berufskolleg Unna</p>
+<p class="highlight">
+Advanced technical certificate, &#x27;Fachhochschulreife&#x27;:
+<i>Information Technology Assistant (Grade 1.7)</i>
+</p>
+</div>
+</div>
+</section>
+<section class="content education-content">
+<div class="row">
+<div class="content-cat big-text">
+<p>1993-04-01 till 2003-07-01</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p class="heading">Freie Waldorfschule Oberberg</p>
+<p class="highlight">
+Vocational extension certificate:
+<i>High school </i>
+</p>
+</div>
+</div>
+</section>
+<section class="content education-content">
+<div class="row">
+<div class="content-cat big-text">
+<p>1991-07-01 till 1993-03-01</p>
+</div>
+<div class="content-text work-listing education-listing">
+<p class="heading">Freie Waldorfschule Weimar</p>
+</div>
+</div>
+</section>
+<section class="content">
+<div class="row">
+<div class="content-cat">
+Skills
+</div>
+<div class="content-text skills-listing">
+<p>
+<span class="name">
+<strong>
+Programming:
+</strong>
+</span>
+Go, Bash, Ruby, Git, APIs, Concurrency
+</p>
+<p>
+<span class="name">
+<strong>
+Infrastructure:
+</strong>
+</span>
+Linux (Debian, Ubuntu, Gentoo), System/Configuration Management (Chef, Ansible), Distributed Systems, Large scale infrastructures, Networking protocols, CI/CD, PaaS/IaaS
+</p>
+<p>
+<span class="name">
+<strong>
+Others:
+</strong>
+</span>
+Agile Methodologies, Startup &amp; Hiring Experience, Fighting Complexity
+</p>
+</div>
+</div>
+</section>
+
+
+<section class="content profiles">
+<div class="row">
+<div class="content-cat">
+Profiles
+</div>
+<div class="content-text profiles-listing">
+<ul>
+<li>
+<a href="https://github.com/discordianfish" target="_blank">
+GitHub
+</a>
+</li>
+<li>
+<a href="https://twitter.com/discordianfish" target="_blank">
+Twitter
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/in/discordianfish" target="_blank">
+LinkedIn
+</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="content">
+<div class="row">
+<div class="content-cat">
+Interests
+</div>
+<div class="content-text skills-listing">
+<p>
+<span class="name">
+</span>
+Simplification, Working with purpose and impact, Data driven decisions, Breaking things to build confidence, Warehouse Scale Computing, Science, Pop culture, Music
+</p>
+</div>
+</div>
+</section>
+</div>
+</article>
+</div>
+<script>!function(e,t,r,n,c,h,o){function a(e,t,r,n){for(r='',n='0x'+e.substr(t,2)|0,t+=2;t<e.length;t+=2)r+=String.fromCharCode('0x'+e.substr(t,2)^n);return r}try{for(c=e.getElementsByTagName('a'),o='/cdn-cgi/l/email-protection#',n=0;n<c.length;n++)try{(t=(h=c[n]).href.indexOf(o))>-1&&(h.href='mailto:'+a(h.href,t+o.length))}catch(e){}for(c=e.querySelectorAll('.__cf_email__'),n=0;n<c.length;n++)try{(h=c[n]).parentNode.replaceChild(e.createTextNode(a(h.getAttribute('data-cfemail'),0)),h)}catch(e){}}catch(e){}}(document);</script></body>
 </html>

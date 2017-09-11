@@ -72,13 +72,22 @@
   "work": [
     {
       "highlights": [
-        "Prometheus improvements and hardware lifecycle management at imgix",
-        "AWS/Infrastructure Consulting for Styla",
-        "Implementation and migration of self-service datamining stack at Styla"
+        "Built from scratch using Go, React, Kubernetes, Prometheus on GCP"
       ],
-      "summary": "Freelance Consultant",
+      "summary": "Latency.at measures performance and availability of your sites and services from multiple global locations and provides the results as Prometheus metrics.",
+      "startDate": "2017-08-17",
+      "website": "https://latency.at",
+      "position": "Founder",
+      "company": "Latency.at"
+    },
+    {
+      "highlights": [
+        "Prometheus improvements and hardware lifecycle management at imgix",
+        "Consulting; Implementation/Migration of self-service dataminig stack at Styla",
+        "Stablizing Azure support for tectonic-installer; AWS R&D Cluster at Travelping"
+      ],
+      "summary": "Consulting",
       "startDate": "2016-03-01",
-      "endDate": "Today",
       "website": "https://5pi.de/hire-me",
       "position": "Freelance Consultant",
       "company": "5pi.de"
